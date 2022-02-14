@@ -20,6 +20,6 @@ int add(int a, int b)
 // Exercise 2: implements function 'mul', that multiplies two numbers
 int mul(int a, int b)
 {
-   // TODO: fix -Let's see what happens when we accidentally subtract instead..
-   return a - b;
+   // TODO: fix -DONE
+   return a * b;
 }
