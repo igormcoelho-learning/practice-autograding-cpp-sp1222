@@ -13,11 +13,13 @@ int mul(int a, int b);
 
 int add(int a, int b)
 {
-   return 0; // TODO: fix
+   // TODO: fix  -DONE
+   return a + b;
 }
 
 // Exercise 2: implements function 'mul', that multiplies two numbers
 int mul(int a, int b)
 {
-   return 0; // TODO: fix
+   // TODO: fix -Let's see what happens when we accidentally subtract instead..
+   return a - b;
 }
